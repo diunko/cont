@@ -1,0 +1,21 @@
+{
+  "name": "cont",
+  "version": "0.0.0",
+  "description": "continuations",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/nojs/cont"
+  },
+  "author": "",
+  "license": "BSD",
+  "devDependencies":{
+    "mocha":"*"
+  }
+}

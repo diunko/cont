@@ -8,7 +8,7 @@ var filter = functions.filter;
 var every = functions.every;
 var some = functions.some;
 
-describe("map shuld iteerate over array",function(){
+describe("map shuld iterate over array",function(){
   it("1",function(){
     var r = map([1,3,4,5],function(e, i){
       return e+e;
@@ -33,7 +33,7 @@ describe("every", function (){
   function F(){return false; };
   function id(e){return e; };
 
-  it("3", function(){
+  it("every", function(){
      var r0 = every([1,3,4,5,7], T);
      var r1 = every([1,3,4,5,7], F);
      var r2 = every([true, true, false], id);
@@ -44,7 +44,7 @@ describe("every", function (){
 
   })
 
-  it("4", function(){
+  it("some", function(){
 
     var r4 = some([false,false, true], id);
     assert.deepEqual(r4, true);
